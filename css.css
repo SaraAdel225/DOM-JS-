@@ -1,0 +1,36 @@
+form {
+    /* background-color: aqua; */
+    padding: 20px;
+    text-align: center;
+}
+form input ,form select {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 350px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #1197cc;
+    border-radius: 5px;
+}
+form select,[type="submit"]{
+    width: 370px;
+}
+[type="submit"] {
+    background-color: #1197cc;
+    color:white;
+}
+.results {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr) );
+    gap: 30px;
+}
+.results .box{
+    background-color: #1197cc;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
